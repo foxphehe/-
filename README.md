@@ -6,6 +6,8 @@
 
 #### 附带动作时间配置
 
+#### 会留存app图标
+
 ##### //吃饭
 
 ##### //写东西
@@ -22,7 +24,7 @@
 
 ##### //音符
 
-![https://github.com/foxphehe/Travel-Frog/blob/master/pre.jpg]()
+![preview](https://github.com/foxphehe/Travel-Frog/blob/master/pre.jpg)
 
-![https://github.com/foxphehe/Travel-Frog/blob/master/config.png]()
+![appconfig](https://github.com/foxphehe/Travel-Frog/blob/master/config.png)
 
