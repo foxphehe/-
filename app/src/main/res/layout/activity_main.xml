@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    tools:context="foxphehe.com.meme.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/animaTitle"
+                android:text="离家出走" />
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/alwayhomeLayout"
+                style="@style/animaTime"
+                android:visibility="visible" />
+
+            <View style="@style/cutline" />
+
+            <LinearLayout
+                android:id="@+id/btnSyokuzi"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgSyokuzi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="吃饭" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/syokuziLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+
+            <LinearLayout
+                android:id="@+id/btnHikii"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgHikii"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="写东西" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/hikiiLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+
+            <LinearLayout
+                android:id="@+id/btnKaeruNiwa"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgKaeruNiwa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="背帽子" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/kaeru_niwaLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+
+            <LinearLayout
+                android:id="@+id/btnSagyouIe"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgSagyouIe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="做手工" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/sagyou_ieLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+            <LinearLayout
+                android:id="@+id/btnSitakuIe"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgSitakuIe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="整理背包" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/sitaku_ieLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+            <LinearLayout
+                android:id="@+id/btnSleepy"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgSleepy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="犯困" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/sleepyLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+            <LinearLayout
+                android:id="@+id/btnSleep"
+                style="@style/animeTitleStyle">
+
+                <ImageView
+                    android:id="@+id/imgSleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add" />
+
+                <TextView
+                    style="@style/animaTitle"
+                    android:text="睡觉" />
+            </LinearLayout>
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/sleepLayout"
+                style="@style/animaTime" />
+
+            <View style="@style/cutline" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@android:string/ok"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Apply"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
