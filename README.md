@@ -21,3 +21,8 @@
 ##### //蜗牛 坐标算法有误，无法每分钟一周
 
 ##### //音符
+
+![https://github.com/foxphehe/Travel-Frog/blob/master/pre.jpg]()
+
+![https://github.com/foxphehe/Travel-Frog/blob/master/config.png]()
+
