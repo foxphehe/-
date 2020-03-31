@@ -22,7 +22,7 @@
 
 ##### //音符
 
-![https://github.com/foxphehe/Travel-Frog/blob/master/pre.jpg]()
+![https://github.com/foxphehe/Travel-Frog/blob/master/pre.jpg?raw=true]()
 
 ![https://github.com/foxphehe/Travel-Frog/blob/master/config.png]()
 
